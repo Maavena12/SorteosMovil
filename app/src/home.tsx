@@ -254,7 +254,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',   
     },  
     spacing: {
-        paddingBottom: 100
+        paddingBottom: 60
     }
 });
 

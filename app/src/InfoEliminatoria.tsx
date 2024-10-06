@@ -45,9 +45,10 @@ const CantidadEquiposEliminatorias = () => {
             <Picker.Item key={number} label={String(number)} value={number} />
           ))}
         </Picker>
-        <View style={{marginTop:15}}></View>
         <Button title="Agregar Equipos" onPress={agregarEquipos} />
       </View>
+
+      <View style={styles.spacing}></View>
       
       {equipos.length > 0 && (
         <View style={styles.teamsContainer}>
@@ -124,6 +125,10 @@ teamsContainer: {
 teamInputContainer: {
     marginVertical: 10,
 },
+
+spacing: {
+  paddingBottom: 10
+}
 });
 
 export default CantidadEquiposEliminatorias;

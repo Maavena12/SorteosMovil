@@ -1,0 +1,19 @@
+{
+  "build": {
+    "development": {
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "release": {
+      "distribution": "store",
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      },
+      "ios": {
+        "buildConfiguration": "Release"
+      }
+    }
+  }
+}
