@@ -1,19 +1,22 @@
-{
-  "build": {
-    "development": {
-      "distribution": "internal"
-    },
-    "preview": {
-      "distribution": "internal"
-    },
-    "release": {
+{  
+  "build": {  
+    "production": {  
       "distribution": "store",
-      "android": {
-        "gradleCommand": ":app:assembleRelease"
-      },
-      "ios": {
-        "buildConfiguration": "Release"
-      }
-    }
-  }
+      "android": {  
+        "buildType": "apk"
+      },  
+      "ios": {  
+        "buildConfiguration": "Release"  
+      }  
+    },  
+    "preview": {  
+      "distribution": "internal",
+      "android": {  
+        "buildType": "apk"  
+      },  
+      "ios": {  
+        "buildConfiguration": "Release"  
+      }  
+    }  
+  }  
 }

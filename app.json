@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Sorteos",
-    "slug": "Sorteos",
+    "slug": "sorteos",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -14,14 +14,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.mariojuve12.Sorteos"
+      "bundleIdentifier": "com.mario12dev.Sorteos"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.mariojuve12.Sorteos"
+      "package": "com.mario12dev.Sorteos"
     },
     "web": {
       "bundler": "metro",
@@ -36,8 +36,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "afaa973f-ed29-4845-8439-0e33203750ca"
+        "projectId": "9d4bbbd2-5fe8-49ac-b9bb-cc8d3b32bf21"
       }
-    }
+    },
+    "owner": "mario12dev"
   }
 }
